@@ -3,3 +3,4 @@ def celcius(x):
 
 for x in range(0,101,10):
         print("{:>3} F | {:>6.2f} C".format(x,celcius(x)))
+print(" ")
